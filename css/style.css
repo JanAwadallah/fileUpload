@@ -1,0 +1,127 @@
+.navbar-dark .navbar-nav .nav-link {
+	color: white;
+
+}
+
+
+.jumbotron{
+	text-align: center;
+
+
+}
+   img{
+      max-height:80%;
+      max-width:80%;
+margin:0 auto;
+    
+}
+
+@media only screen and (max-width: 600px) {
+.h1, h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .h2, h2 {
+    font-size: 1.5rem;
+  
+  }
+
+
+  
+
+}
+
+
+
+.container-fluid {
+    display: block;
+}
+
+
+
+#logo{
+    max-height:40px;
+    max-width:40px;
+    margin:10px;
+}
+
+.carousel .carousel-control-next-icon {
+ background-image: url(https://www.jea.com/cdn/images/svgs/right-arrow.svg);
+}
+.carousel .carousel-control-prev-icon {
+ background-image: url(https://www.jea.com/cdn/images/svgs/left-arrow.svg);
+}
+.icons{
+    width:80%;
+    height:80%;
+}
+.facebookicon{
+    width:175px;
+    height:75px;
+}
+.center{
+    text-align:center;
+    margin:0 auto;
+
+}
+.title{
+	text-align: center;
+	margin:0.5em;
+}
+blockquote{
+    	text-align: justify;
+	margin:1em;
+    
+}
+#reference{
+margin:0 auto;
+text-align:center;
+    
+}
+.raw{
+    height:300px;
+}
+.room{
+      
+      max-height:100%;
+      max-width:100%;
+margin:0 auto;
+    
+
+}
+
+#boxshadow {
+  position: relative;
+  -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+  -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  padding: 10px;
+  background: white;
+}
+
+/* Make the image fit the box */
+#boxshadow img {
+  width: 100%;
+  border: 1px solid #8a4419;
+  border-style: inset;
+}
+
+#boxshadow::after {
+  content: '';
+  position: absolute;
+  z-index: -1; /* hide shadow behind image */
+  -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);        
+  width: 70%; 
+  left: 15%; /* one half of the remaining 30% */
+  height: 100px;
+  bottom: 0;
+}
+#header{
+    display: none;
+}
+
+
+
+            
