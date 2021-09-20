@@ -5,7 +5,6 @@
 		<meta charset="utf-8">
 		<title>Upload</title>
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
-		<link href="signin.css" rel="stylesheet">
 		<link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet">
     
 <script>
